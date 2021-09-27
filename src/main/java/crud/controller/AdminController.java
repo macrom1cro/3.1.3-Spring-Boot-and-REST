@@ -28,4 +28,8 @@ public class AdminController {
         return "/user/user";
     }
 
+    @GetMapping("/index")
+    public String index() {
+        return "/index";
+    }
 }
